@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Project</title>
+    <link rel="stylesheet" href="/CSS/index.css" />
+    <link rel="stylesheet" href="/CSS/keyboardGuide.css" />
+</head>
+
+<body>
+    <main>
+        <div id="divHeaderArea">
+            <img src="./Images/pngwingCopy.png" class="sideHeaderImages" />
+            <header id="headerNavbar">
+                <h2 class="headerElements"><a href="/HTML/gameHistory.html">Game History</a></h2>
+                <hr>
+                <h2 class="headerElements"><a href="/HTML/about.html">About</a></h2>
+            </header>
+            <img src="./Images/pngwingCopy.png" class="sideHeaderImages" />
+        </div>
+        <hr>
+
+        <div id="divHealthBar">
+            <div id="divPlayerHealth" class="healthStyle">Health: 100</div>
+            <div id="divTimer">Timer: <label id="labelTimer">60</label></div>
+            <div id="divPlayer2Health" class="healthStyle">Health: 100</div>
+        </div>
+
+        <div id="gameArea">
+            <canvas id="canvasGame" width="576" height="324"></canvas>
+        </div>
+    </main>
+
+    <div id="divAnimations">
+        <label class="switch">
+            <input id="inputCheckboxAnimations" type="checkbox" checked>
+            <span class="slider round"></span>
+        </label>
+        <label>Animations OFF/ON (After this window)</label>
+        <br>
+        <br>
+        <hr>
+    </div>
+
+    <div class="container">
+        <div class="animate three">
+            <span>K</span><span>e</span><span>y</span><span>b</span><span>o</span><span>a</span><span>r</span><span>d</span>
+            &nbsp;
+            <span>G</span><span>u</span><span>i</span><span>d</span><span>e</span>
+        </div>
+        <hr>
+
+        <br>
+        <div class="animate one">
+            <span>W</span><span>A</span><span>D</span>
+            <span>&nbsp;-&nbsp;</span>
+            <span>C</span><span>h</span><span>a</span><span>r</span><span>a</span><span>c</span><span>t</span><span>e</span><span>r</span>
+            &nbsp;
+            <span>m</span><span>o</span><span>v</span><span>i</span><span>n</span><span>g</span> &nbsp;
+            <span>o</span><span>r</span><span>&nbsp;-&nbsp;</span><span>^</span><span>
+                < </span><span></span><span>></span>&nbsp;
+        </div>
+
+        <div class="animate four">
+            <span>S</span><span>&nbsp;-&nbsp;</span><span>A</span><span>t</span><span>t</span><span>a</span><span>c</span><span>k</span>
+            &nbsp;
+            <span>o</span><span>r</span><span>&nbsp;-&nbsp;</span><span>v</span>
+        </div>
+
+        <button id="buttonGuide" type="button">I understand</button>
+    </div>
+
+    <script type="module" src="/JS/index.js"></script>
+    <script type="module" src="/JS/keyboardGuide.js"></script>
+</body>
+
+</html>
