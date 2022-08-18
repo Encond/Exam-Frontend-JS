@@ -1,5 +1,3 @@
-Start project with localhost (for example in VS Code) !!!
-
 Про проект - це сайт, і міні-гра в одному.
 
 -Сайт: Має 3 сторінки {
